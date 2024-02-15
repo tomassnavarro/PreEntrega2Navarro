@@ -1,6 +1,6 @@
 function sumarProductos() {
 
-    let sumaTotal = 0;
+let sumaTotal = 0;
 let cantidadProductos = 0;
 
 let precios = []; 
