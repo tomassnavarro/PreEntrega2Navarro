@@ -1,0 +1,28 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Calculadora de Compras</title>
+    <link rel="stylesheet" href="./css/style.css">
+
+    
+    
+</head>
+<body>
+    <h1>Lista de compras</h1>
+    <div class="form">
+        <label for="prodcutoInput">Ingrese producto:</label>
+        <input type="text" id="productoInput" class="productoInput">
+        <label for="precioInput">Ingrese precio:</label>
+        <input type="number" id="precioInput" class="precioInput">
+        <button id="calcular">Agregar</button>
+        <ul id="listaProductos" class="productos">
+        <!-- Aca se van a agregar los productos -->
+        </ul>
+            <div id="total">Total: $0</div>
+    </div>
+
+    <script src="./js/index.js"></script>
+</body>
+</html>

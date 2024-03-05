@@ -1,0 +1,40 @@
+
+
+
+body   {
+    background-color: antiquewhite;
+    text-align: center;
+    justify-content: center;
+    font-family: "Poppins", sans-serif;
+    font-size: 1.5rem;
+}
+
+h1 {
+    text-decoration: underline;
+    color: salmon;
+
+}
+
+.form {
+    background-color: darksalmon;
+    margin-left: 10rem;
+    margin-right: 10rem;
+    padding: 2rem;
+    border-radius: 4rem;
+    border: .2rem solid black;
+
+}
+
+input {
+    border-radius: 0.5rem;
+    height: 2rem;
+}
+
+button {
+    height: 2rem;
+    background-color: rgb(189, 123, 101);
+    font-size: 1.2rem ;
+    justify-content: center;
+    text-align: center;
+    border-radius: 2rem;
+}
